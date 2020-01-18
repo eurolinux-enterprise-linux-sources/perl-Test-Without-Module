@@ -1,6 +1,6 @@
 Name:           perl-Test-Without-Module
 Version:        0.17
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Test fallback behavior in absence of modules
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -48,6 +48,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.17-12
+- Mass rebuild 2013-12-27
+
 * Sun Dec 16 2012 Emmanuel Seyman <emmanuel@seyman.fr> - 0.17-11
 - Remove no-longer-needed macros
 
